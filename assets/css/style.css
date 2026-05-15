@@ -10,6 +10,10 @@
     transition: 0.4s linear;
 }
 
+body{
+    background-color: #fff;
+}
+
 /* Page styling Start Here --> */
 .image-generator{
     height: 45vh;
@@ -175,6 +179,62 @@
 
 
 
+
+
+/* Media Quiery Styling for According to device screen ----> */
+
+@media screen and ( max-width: 760px ) {
+    
+    .image-generator{
+        height: 50vh;
+    }
+
+    .image-generator .content{
+        margin-bottom: 30px;
+    }
+
+    .image-generator h1{
+        font-size: 1.8rem;
+    }
+
+    .image-generator p{
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+    .image-generator .generate-form{
+        margin-top: 20px;
+        height: 52px;
+        display: block;
+    }
+
+    .generate-form .controls{
+        height: 40px;
+        margin-top: 15px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .generate-form .image-quantity{
+        color: #fff;
+        background: none;
+    }
+
+    .generate-form .image-quantity option{
+        color: #000;
+    }
+
+    .generate-form .generate-btn{
+        height: 100%;
+    }
+
+    .image-gallery{
+        margin-top: 20px;
+    }
+
+
+
+}
 
 
 
